@@ -1,0 +1,418 @@
+.fondo {
+  background-image: url(../Imagenes/SABIO.png);
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.fondo-nosotros {
+  background-image: url(../Imagenes/SABIO.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.proximamente {
+  background-image: url(../Imagenes/Proximamente.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navegacion {
+  color: aliceblue;
+  display: flex;
+  display: inline;
+  justify-content: baseline;
+  flex-direction: row;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0px;
+  background: #3A7CA5;
+  overflow: hidden;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  border-right: 1px solid black;
+  border-bottom: 110px;
+}
+
+.menu2 a {
+  color: black !important;
+}
+
+#menu {
+  background: #3A7CA5;
+  text-align: auto;
+  padding-top: 15px;
+  border-right: 1px solid black;
+}
+
+.productos_menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.productos_menu h5 {
+  font-size: large;
+  color: black;
+}
+
+.productos_menu p {
+  color: #96E6B3 !important;
+  font-family: "Silkscreen";
+  font-size: large;
+}
+
+#volver {
+  font-size: xx-large;
+  color: #96E6B3 !important;
+  font-family: "Silkscreen";
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+#menu:active {
+  border: #e9ecef !important;
+}
+
+a:hover {
+  background-color: #e9ecef;
+  color: black;
+}
+
+a :visited {
+  color: black;
+}
+
+h1 {
+  font-family: "Silkscreen";
+  color: #96E6B3;
+}
+
+h2 {
+  font-family: "Silkscreen";
+  color: #96E6B3;
+}
+
+#clientes {
+  font-size: xx-large;
+  color: #96E6B3;
+  font-family: "Silkscreen";
+  text-decoration: none;
+}
+#clientes_imag {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  float: left;
+  display: block;
+  color: #464E47;
+  text-align: center;
+  padding: 1.5% 1.5%;
+  border-style: outset;
+  border-radius: 25px;
+}
+
+.noticia {
+  border: wheat 3px solid;
+  color: #96E6B3;
+  overflow: 10%;
+  float: justify;
+  font-display: center;
+  width: auto;
+  margin: 30px;
+  text-align: center;
+  font-size: large;
+  box-shadow: 1px 5px 25px rgb(0, 0, 0);
+  background-size: auto;
+  display: block;
+  font-family: "Silkscreen";
+  text-decoration: none;
+  border-top: 10%;
+}
+
+.promo_banco {
+  font-size: auto;
+  font-family: "Silkscreen";
+  color: #96E6B3;
+  display: inline;
+  font-display: center;
+}
+.promo_banco p {
+  margin: auto;
+  width: 35%;
+  height: 35%;
+  font-size: 250%;
+  border: whitesmoke 7px solid;
+  text-align: center;
+}
+
+.marcas {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  padding: 15px;
+  width: 80%;
+  height: 200px;
+  margin-top: 50px;
+}
+.marcas img {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.publicidad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+  width: 100%;
+  height: 600px;
+  margin-top: 25px;
+}
+
+.intel {
+  max-width: auto;
+  max-height: auto;
+}
+
+.carrusel-1 {
+  width: 30%;
+}
+
+.imagen1 {
+  width: 70%;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: none;
+}
+.imagen1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.tamanio {
+  width: 70%;
+  padding-top: 10%;
+}
+
+.carousel-item img {
+  width: 160px;
+  height: 560px;
+  margin: auto;
+}
+
+.carousel-item p {
+  font-family: "Silkscreen";
+}
+
+#nosotros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+#nosotros-item {
+  padding: 15px;
+}
+
+.nosotros {
+  font-family: "Silkscreen";
+  color: #96E6B3;
+  font-size: x-large;
+}
+
+.nav_contenedor {
+  margin-bottom: 70px;
+}
+
+.container-contact {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../Imagenes/SABIO.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav_contenedor {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 20% !important;
+}
+
+@media screen and (max-width: 750px) {
+  .publicidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 100px;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .carousel-item img {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+  }
+  .carrusel-1 {
+    width: 95%;
+  }
+  .imagen1 {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: none;
+  }
+  .imagen1 img {
+    width: 100%;
+    height: 150px;
+  }
+  #nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  #nosotros-item {
+    padding: 15px;
+  }
+  .productos_menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .card {
+    width: 300px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .nav_contenedor {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 600px;
+  }
+  .publicidad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+  }
+  .carousel-item img {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+  }
+  .carrusel-1 {
+    width: 95%;
+  }
+  .imagen1 {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: none;
+  }
+  .imagen1 img {
+    width: 100%;
+    height: 150px;
+  }
+  .promo_banco {
+    font-size: auto;
+    font-family: "Silkscreen";
+    color: #96E6B3;
+    display: inline;
+    font-display: center;
+  }
+  .promo_banco p {
+    margin: auto;
+    width: 55%;
+    height: 40%;
+    font-size: 250%;
+    border: whitesmoke 7px solid;
+    text-align: center;
+  }
+  .nosotros {
+    font-family: "Silkscreen";
+    color: #96E6B3;
+    font-size: large;
+  }
+  #clientes {
+    font-size: x-large;
+    color: #96E6B3;
+    font-family: "Silkscreen";
+    text-decoration: none;
+  }
+  #clientes_imag {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    float: left;
+    display: block;
+    color: #464E47;
+    text-align: center;
+    padding: 1.5% 1.5%;
+    border-style: outset;
+    border-radius: 25px;
+  }
+  .menu {
+    list-style-type: none;
+    margin: 0px;
+    background: #3A7CA5;
+    overflow: hidden;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 19px;
+    text-decoration: none;
+    border-right: 1px solid black;
+    border-bottom: 100px;
+  }
+}
+
+/*# sourceMappingURL=Style.css.map */
